@@ -1,0 +1,6 @@
+//Verbal question:
+//2. The difference between parameter and argument is: 
+//		Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function.
+//3. Within a function, return is will return the result of a function so that it can be use for something else. 
+// Console.log will display the result of a function inside the console.
+
