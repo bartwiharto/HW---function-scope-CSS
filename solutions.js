@@ -16,23 +16,22 @@
 
 //Digit Sum: (Can only do up to 2 digits)
 
-const sumDigits = (number) => {
-		let i = number.toString().split('');
-		return (parseInt(i[0]) + parseInt(i[1]));
-}
+// const sumDigits = (number) => {
+// 		let i = number.toString().split('');
+// 		return (parseInt(i[0]) + parseInt(i[1]));
+// }
 
-sumDigits(49);
+// sumDigits(49);
 
 
 //Pythagoras:
 
-// let sideC;
+const calculateSide = (sideA, sideB) => {
+	console.log("Side C is: " + Math.sqrt((Math.pow(sideA, 2) + Math.pow(sideB, 2))));
 
-// const calculateSide = (sideA, sideB) => {
+}
 
-// }
-
-
+calculateSide(5,21);
 
 
 
