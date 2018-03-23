@@ -18,20 +18,55 @@
 
 // const sumDigits = (number) => {
 // 		let i = number.toString().split('');
-// 		return (parseInt(i[0]) + parseInt(i[1]));
+// 		let sum = 0;
+		
+// 		for(let x = 0; x < i.length; x++) {
+		
+// 		sum += parseInt(i[x]);
+// }
+// 		return(sum);
 // }
 
-// sumDigits(49);
+// sumDigits(1234);
 
 
 //Pythagoras:
 
-const calculateSide = (sideA, sideB) => {
-	console.log("Side C is: " + Math.sqrt((Math.pow(sideA, 2) + Math.pow(sideB, 2))));
+// const calculateSide = (sideA, sideB) => {
+// 	console.log("Side C is: " + Math.sqrt((Math.pow(sideA, 2) + Math.pow(sideB, 2))));
 
+// }
+
+// calculateSide(5,21);
+
+// Sum Array:
+
+const sumArray = [1, 2, 3, 4, 5, 6];
+let sum = 0;
+
+for (i = 0; i < sumArray.length; i++) {
+	sum += parseInt(sumArray[i]);
 }
+  console.log(sum);
 
-calculateSide(5,21);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
